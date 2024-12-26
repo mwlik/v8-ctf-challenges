@@ -23,7 +23,9 @@ while True:
         #log.info(thi_line)
         #if thi_line[4:6] == long_awaited:
         #    log.info("Hold up this should work!!!!!!")
+
         #print(open(f"/proc/{p.pid}/maps", "r").read())
+        #exit()
 
         i = 0
         while i < 100_000:

