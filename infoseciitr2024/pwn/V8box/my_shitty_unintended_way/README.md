@@ -4,3 +4,5 @@
 - the 4 LSB bytes of an address in the d8 binary, and we can utilize the `Sandbox.getPIELeak` vuln.patch function to get the upper 4 MSB bytes, and now we have the d8 base!
 
 2 - overwrite EPT entry of Math.max to point to a jop+rop chain, cf. [KITCTFCTF 2022 V8 Heap Sandbox Escape](https://ju256.de/posts/kitctfctf22-date/).
+
+![image](https://github.com/user-attachments/assets/08bfca57-d589-4052-97e8-ca70ca533529)
